@@ -1,0 +1,33 @@
+{
+  "name": "react-base-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook -c .storybook -o docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@hot-loader/react-dom": "^16.8.6",
+    "@storybook/addon-actions": "^5.0.11",
+    "@storybook/addon-info": "^5.0.11",
+    "@storybook/addon-links": "^5.0.11",
+    "@storybook/addons": "^5.0.11",
+    "@storybook/react": "^5.0.11",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "react-hot-loader": "^4.8.4",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.31.0"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "scriptjs": "^2.5.9"
+  }
+}
