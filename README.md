@@ -1,4 +1,4 @@
-# React Twitter Components
+# 🐦 React Twitter Components
 
 A collection of Twitter JS Widgets as React Components
 
