@@ -54,7 +54,7 @@ storiesOf('Twitter Button', module)
           text: 'Twitter Direct Message'
         })(() => (
             <TwitterButton
-                dm='73747822'
+                dm={73747822}
                 options={{ size: 'large' }}
             />
         ))

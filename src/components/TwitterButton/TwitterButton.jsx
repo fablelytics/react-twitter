@@ -1,12 +1,12 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
-import TWITTER_WIDGET_JS from "../TwitterWidgetJS";
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import TWITTER_WIDGET_JS from '../TwitterWidgetJS';
 
 class TwitterButton extends Component {
 
     componentDidMount() {
         let that = this;
-        let script = require("scriptjs");
+        let script = require('scriptjs');
         script(TWITTER_WIDGET_JS, function() {
             if(!window.twttr) {
                 console.error('Twitter Widgets JS not initialized, aborting');
@@ -29,11 +29,13 @@ class TwitterButton extends Component {
             } else if(that.props.periscope) {
                 _sourceType = that.props.periscope;
                 _method = 'createPeriscopeOnAirButton';
-            } else {
+            } else if(that.props.tweet) {
                 _sourceType = that.props.tweet;
                 _method = 'createShareButton';
+            } else {
+                _sourceType = '_kunalnagar';
+                _method = 'createFollowButton';
             }
-            console.log(window.twttr);
             window.twttr.widgets[_method](
                 _sourceType,
                 that.refs.twitterShareContainer,
