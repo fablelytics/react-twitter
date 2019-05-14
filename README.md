@@ -4,11 +4,11 @@
 
 A collection of [Twitter JS Widgets](https://developer.twitter.com/en/docs/twitter-for-websites/overview) as React Components. For more details and usage, check out the Storybook Demo below.
 
-# Demo
+## Demo
 
 https://kunalnagar.github.io/react-twitter/
 
-# Setup
+## Setup
 
 Here are some shortcuts to setup the project after you clone it. It's not available on NPM just yet.
 
