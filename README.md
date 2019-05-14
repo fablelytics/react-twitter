@@ -7,3 +7,32 @@ A collection of [Twitter JS Widgets](https://developer.twitter.com/en/docs/twitt
 # Demo
 
 https://kunalnagar.github.io/react-twitter/
+
+# Setup
+
+Here are some shortcuts to setup the project after you clone it. It's not available on NPM just yet.
+
+### Install dependencies
+
+```
+npm install
+```
+
+### Development
+
+```
+npm run storybook
+```
+
+### Testing
+
+```
+npm run test
+```
+
+### Static Storybook
+
+```
+npm run build-storybook
+```
+
