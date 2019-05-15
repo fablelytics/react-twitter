@@ -31,7 +31,7 @@ TwitterMoment.propTypes = {
     /**
      * Moment ID. E.g. 650667182356082688
      */
-    id: PropTypes.string,
+    id: PropTypes.number,
 
     /**
      * Timeline Profile Options.
