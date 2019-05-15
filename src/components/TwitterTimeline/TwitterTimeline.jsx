@@ -56,7 +56,7 @@ TwitterTimeline.propTypes = {
     /**
      * Collection ID. E.g. 539487832448843776
      */
-    id: PropTypes.string,
+    id: PropTypes.number,
 
     /**
      * Timeline Profile Options. Available here: https://developer.twitter.com/en/docs/twitter-for-websites/timelines/guides/parameter-reference

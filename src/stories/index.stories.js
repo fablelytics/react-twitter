@@ -166,7 +166,7 @@ storiesOf('Twitter Tweet Embed', module)
           text: 'Twitter Tweet Embed'
         })(() => (
             <TwitterTweetEmbed
-                id='933354946111705097'
+                id={933354946111705097}
             />
         ))
     )
@@ -176,7 +176,7 @@ storiesOf('Twitter Tweet Embed', module)
           text: 'Twitter Tweet Media Embed'
         })(() => (
             <TwitterTweetEmbed
-                id='1083592734038929408'
+                id={1083592734038929408}
             />
         ))
     )
@@ -186,7 +186,7 @@ storiesOf('Twitter Tweet Embed', module)
           text: 'Twitter Tweet Media Embed (hidden media)'
         })(() => (
             <TwitterTweetEmbed
-                id='1083592734038929408'
+                id={1083592734038929408}
                 options={{
                     cards: 'hidden'
                 }}
@@ -199,7 +199,7 @@ storiesOf('Twitter Tweet Embed', module)
           text: 'Twitter Tweet Media Embed (video)'
         })(() => (
             <TwitterTweetEmbed
-                id='560070183650213889'
+                id={560070183650213889}
             />
         ))
     )

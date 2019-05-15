@@ -31,7 +31,7 @@ TwitterTweetEmbed.propTypes = {
     /**
      * Tweet ID. E.g. 933354946111705097
      */
-    id: PropTypes.string,
+    id: PropTypes.number,
 
     /**
      * Embedded Tweet Options: https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/guides/embedded-tweet-parameter-reference
