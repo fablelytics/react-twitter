@@ -30,7 +30,7 @@
     "jsdom": "^15.1.1",
     "jsdom-global": "^3.0.2",
     "mocha": "^6.1.4",
-    "react-hot-loader": "^4.12.5",
+    "react-hot-loader": "^4.12.6",
     "style-loader": "^0.23.1",
     "webpack": "^4.35.3"
   },
