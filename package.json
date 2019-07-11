@@ -1,6 +1,6 @@
 {
   "name": "react-twitter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A collection of Twitter JavaScript Widgets as React Components",
   "main": "index.js",
   "scripts": {
